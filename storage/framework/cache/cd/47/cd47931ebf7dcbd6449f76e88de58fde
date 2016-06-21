@@ -1,0 +1,25 @@
+1466498440s:524:"a:2:{s:5:"mtime";i:1466496596;s:7:"content";s:470:"{% if not user %}
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Sign in</h3>
+            {% partial __SELF__ ~ '::signin' %}
+        </div>
+
+        <div class="col-md-6">
+            <h3>Register</h3>
+            {% partial __SELF__ ~ '::register' %}
+        </div>
+
+    </div>
+
+{% else %}
+
+    {% partial __SELF__ ~ '::activation_check' %}
+
+    {% partial __SELF__ ~ '::update' %}
+
+    {% partial __SELF__ ~ '::deactivate_link' %}
+
+{% endif %}";}";
