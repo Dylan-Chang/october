@@ -1,0 +1,30 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: id
+        invisible: true
+
+    flavor:
+        label: flavor
+        searchable: true
+        invisible: true
+
+    name:
+        label: name
+        searchable: true
+
+    type:
+        label: type
+        searchable: true
+        invisible: true
+
+    text:
+        label: text
+        searchable: true
+
+    created_at:
+        label: rainlab.user::lang.user.created_at

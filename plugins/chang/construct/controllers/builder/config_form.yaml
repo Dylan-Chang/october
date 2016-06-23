@@ -1,0 +1,25 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: builder
+
+# Model Form Field configuration
+form: $/chang/construct/models/builder/fields.yaml
+
+# Model Class name
+modelClass: Chang\Construct\Models\Builder
+
+# Default redirect location
+defaultRedirect: chang/construct/builder
+
+# Create page
+create:
+    redirect:  chang/construct/builder/update/:id
+    redirectClose:  chang/construct/builder
+
+# Update page
+update:
+    redirect:  chang/construct/builder
+    redirectClose:  chang/construct/builder

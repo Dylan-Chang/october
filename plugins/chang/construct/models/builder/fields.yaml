@@ -1,0 +1,37 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    name:
+        label: name
+        span: auto
+
+    type:
+        label: type
+        span: auto
+
+tabs:
+    fields:
+
+        text:
+            label: text
+            tab: account
+            span: full
+
+        flavor:
+            label: flavor
+            tab: account
+            span: left
+
+
+secondaryTabs:
+    fields:
+
+        avatar:
+            label: rainlab.user::lang.user.avatar
+            type: fileupload
+            mode: image
+            imageHeight: 260
+            imageWidth: 260
