@@ -1,4 +1,4 @@
-1466650312s:1566:"a:6:{s:5:"mtime";i:1466496598;s:7:"content";s:629:"title = "Blog Category"
+1466738655s:1566:"a:6:{s:5:"mtime";i:1466496598;s:7:"content";s:629:"title = "Blog Category"
 url = "/blog/category/:slug/:page?"
 layout = "default"
 description = "Viewing blog posts in a specific category."

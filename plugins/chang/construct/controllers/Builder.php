@@ -48,11 +48,12 @@ class Builder extends Controller {
       } */
 
     //构建
+    //http://october.dev/backend/chang/construct/builder/cards
     public function cards() {
         //     $rs = DB::select('select * from cards group by set');
         $sets = DB::select('select * from cd_cards');
         //   $rs = file_put_contents('cards.josn', json_encode($sets));
-        $rs = Storage::disk('local')->put('cards.josn', json_encode($sets));
+        $rs = Storage::disk('local')->put('cards.json', json_encode($sets));
         var_dump($rs);
         exit;
     }
@@ -73,9 +74,9 @@ class Builder extends Controller {
         return view("cards.deck-builder", ['sets' => $sets]);
     }
     
-   
-
-
+    public function play(){
+        
+    }
 
     /**
      * Manually activate a user
